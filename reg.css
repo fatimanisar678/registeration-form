@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(10, 10, 57);
+}
+.reg
+{
+    width: 500px;
+    margin: auto;
+    border: 1px solid rgb(137, 133, 133);
+    height: 450px;
+    margin-top: 80px;
+    background-color: rgb(230, 227, 227);
+    border-radius: 5px;
+}
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin: 20px;
+
+}
+.reg1
+{
+     text-align: center;
+     margin: 20px;
+     padding: 12px;
+
+}
+.name{
+    margin: 10px;
+}
+.n{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+#name
+{
+    width: 215px;
+    height: 35px;
+
+    border: 1px solid rgb(24, 23, 23);
+    border-radius: 4px;
+    padding: 4px;
+    
+}
+.email
+{
+       margin: 10px;
+}
+.e{
+     font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+#email
+{
+    width: 215px;
+    height: 35px;
+
+    border: 1px solid rgb(24, 23, 23);
+    border-radius: 4px;
+    padding: 4px;
+}
+.password{
+margin: 10px;
+}
+.p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+#password{
+    width: 215px;
+    height: 35px;
+
+    border: 1px solid rgb(24, 23, 23);
+    border-radius: 4px;
+    padding: 4px;
+}
+.user
+{
+     margin: 10px;
+}
+.u{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+#username
+{
+     width: 215px;
+    height: 35px;
+
+    border: 1px solid rgb(24, 23, 23);
+    border-radius: 4px;
+    padding: 4px;
+}
+.phone
+{
+     margin: 10px;
+}
+.phone1
+{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+#phone
+{
+    width: 215px;
+    height: 35px;
+
+    border: 1px solid rgb(24, 23, 23);
+    border-radius: 4px;
+    padding: 4px;
+}
+.password2{
+margin: 10px;
+}
+.p2{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+#password2{
+    width: 215px;
+    height: 35px;
+
+    border: 1px solid rgb(24, 23, 23);
+    border-radius: 4px;
+    padding: 4px;
+}
+.gender
+{
+    margin-top: 0px;
+    margin-left: 30px;
+}
+.gen{
+      font-size: 18px;
+    font-weight: 600;
+   
+    margin-bottom: 4px;
+}
+.radio
+{
+    
+    display: flex;
+   gap: 70px;
+   font-size: 14px;
+   align-items:center ;
+   
+
+}
+.radio label{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.button
+{
+    width: 400px;
+    margin: 20px;
+    margin-left:50px ;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid ;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(23, 23, 86);
+    color: white;
+}
+.button:hover
+{
+    text-decoration: underline;
+    color: rgb(10, 10, 10);
+    background-color: rgb(69, 69, 151);
+    cursor: pointer;
+}
+#wrongmsg
+{
+    color: white;
+}
+
+
